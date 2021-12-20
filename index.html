@@ -1,0 +1,715 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:16.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:16.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:18.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:18.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:14.0px;color:rgb(111,40,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:14.0px;color:rgb(111,40,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:14.0px;color:rgb(230,120,18);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:14.0px;color:rgb(230,120,18);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:18.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:18.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:20.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:20.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:24.1px;color:rgb(32,32,36);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:24.1px;color:rgb(32,32,36);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Times,serif;font-size:139.5px;color:rgb(218,36,26);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Times,serif;font-size:139.5px;color:rgb(218,36,26);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Times,serif;font-size:139.5px;color:rgb(40,21,113);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Times,serif;font-size:139.5px;color:rgb(40,21,113);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:111.3px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:111.3px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:27.7px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:27.7px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_014{font-family:"Calibri Bold",serif;font-size:27.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_014{font-family:"Calibri Bold",serif;font-size:27.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_015{font-family:"Calibri Bold",serif;font-size:29.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_015{font-family:"Calibri Bold",serif;font-size:29.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_016{font-family:"Calibri Bold",serif;font-size:17.0px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_016{font-family:"Calibri Bold",serif;font-size:17.0px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:28.2px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_018{font-family:Arial,serif;font-size:28.2px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:36.0px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Arial,serif;font-size:36.0px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Times,serif;font-size:95.4px;color:rgb(220,18,122);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Times,serif;font-size:95.4px;color:rgb(220,18,122);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_021{font-family:"Calibri",serif;font-size:24.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_021{font-family:"Calibri",serif;font-size:24.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_022{font-family:Arial,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Arial,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Arial,serif;font-size:8.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Arial,serif;font-size:8.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:Arial,serif;font-size:20.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_024{font-family:Arial,serif;font-size:20.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_027{font-family:Times,serif;font-size:117.1px;color:rgb(20,42,78);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_027{font-family:Times,serif;font-size:117.1px;color:rgb(20,42,78);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_026{font-family:Arial,serif;font-size:32.3px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_026{font-family:Arial,serif;font-size:32.3px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Times,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_025{font-family:Times,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_030{font-family:Times,serif;font-size:121.1px;color:rgb(218,36,26);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_030{font-family:Times,serif;font-size:121.1px;color:rgb(218,36,26);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_029{font-family:Arial,serif;font-size:22.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_029{font-family:Arial,serif;font-size:22.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_032{font-family:Times,serif;font-size:164.6px;color:rgb(218,36,26);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_032{font-family:Times,serif;font-size:164.6px;color:rgb(218,36,26);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_033{font-family:Arial,serif;font-size:29.9px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_033{font-family:Arial,serif;font-size:29.9px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_031{font-family:"Calibri Bold",serif;font-size:36.0px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_031{font-family:"Calibri Bold",serif;font-size:36.0px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_036{font-family:Arial,serif;font-size:20.1px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_036{font-family:Arial,serif;font-size:20.1px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_034{font-family:Arial,serif;font-size:14.1px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_034{font-family:Arial,serif;font-size:14.1px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_037{font-family:Arial,serif;font-size:94.3px;color:rgb(220,18,122);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_037{font-family:Arial,serif;font-size:94.3px;color:rgb(220,18,122);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_038{font-family:Times,serif;font-size:25.6px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_038{font-family:Times,serif;font-size:25.6px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_039{font-family:Times,serif;font-size:25.6px;color:rgb(32,32,36);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_039{font-family:Times,serif;font-size:25.6px;color:rgb(32,32,36);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_040{font-family:Arial,serif;font-size:18.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_040{font-family:Arial,serif;font-size:18.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_042{font-family:Arial,serif;font-size:102.4px;color:rgb(218,36,26);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_042{font-family:Arial,serif;font-size:102.4px;color:rgb(218,36,26);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_041{font-family:Arial,serif;font-size:22.4px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_041{font-family:Arial,serif;font-size:22.4px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_043{font-family:"Calibri Bold",serif;font-size:24.1px;color:rgb(0,103,174);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_043{font-family:"Calibri Bold",serif;font-size:24.1px;color:rgb(0,103,174);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_044{font-family:"Calibri Bold",serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_044{font-family:"Calibri Bold",serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_047{font-family:Arial,serif;font-size:105.6px;color:rgb(143,29,120);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_047{font-family:Arial,serif;font-size:105.6px;color:rgb(143,29,120);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_045{font-family:Arial,serif;font-size:54.1px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_045{font-family:Arial,serif;font-size:54.1px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_048{font-family:Arial,serif;font-size:20.3px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_048{font-family:Arial,serif;font-size:20.3px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_088{font-family:Arial,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_088{font-family:Arial,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_049{font-family:Arial,serif;font-size:19.5px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_049{font-family:Arial,serif;font-size:19.5px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_089{font-family:Arial,serif;font-size:19.5px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_089{font-family:Arial,serif;font-size:19.5px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_051{font-family:Arial,serif;font-size:107.9px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_051{font-family:Arial,serif;font-size:107.9px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_052{font-family:Arial,serif;font-size:26.4px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_052{font-family:Arial,serif;font-size:26.4px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_050{font-family:Arial,serif;font-size:16.2px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_050{font-family:Arial,serif;font-size:16.2px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_053{font-family:Arial,serif;font-size:18.2px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_053{font-family:Arial,serif;font-size:18.2px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_054{font-family:Arial,serif;font-size:30.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_054{font-family:Arial,serif;font-size:30.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_055{font-family:Arial,serif;font-size:97.9px;color:rgb(218,36,26);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_055{font-family:Arial,serif;font-size:97.9px;color:rgb(218,36,26);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_056{font-family:Times,serif;font-size:122.7px;color:rgb(218,36,26);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_056{font-family:Times,serif;font-size:122.7px;color:rgb(218,36,26);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_057{font-family:Times,serif;font-size:28.0px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_057{font-family:Times,serif;font-size:28.0px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_058{font-family:Arial,serif;font-size:13.7px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_058{font-family:Arial,serif;font-size:13.7px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_059{font-family:Arial,serif;font-size:16.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_059{font-family:Arial,serif;font-size:16.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_060{font-family:Arial,serif;font-size:28.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_060{font-family:Arial,serif;font-size:28.1px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_062{font-family:Arial,serif;font-size:155.9px;color:rgb(0,146,223);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_062{font-family:Arial,serif;font-size:155.9px;color:rgb(0,146,223);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_063{font-family:Arial,serif;font-size:22.1px;color:rgb(35,31,32);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_063{font-family:Arial,serif;font-size:22.1px;color:rgb(35,31,32);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_064{font-family:Arial,serif;font-size:22.1px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_064{font-family:Arial,serif;font-size:22.1px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_065{font-family:Arial,serif;font-size:30.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_065{font-family:Arial,serif;font-size:30.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_061{font-family:"Calibri Bold",serif;font-size:20.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_061{font-family:"Calibri Bold",serif;font-size:20.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_066{font-family:"Calibri Bold",serif;font-size:22.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_066{font-family:"Calibri Bold",serif;font-size:22.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_068{font-family:Arial,serif;font-size:112.1px;color:rgb(230,120,18);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_068{font-family:Arial,serif;font-size:112.1px;color:rgb(230,120,18);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_069{font-family:Arial,serif;font-size:16.1px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_069{font-family:Arial,serif;font-size:16.1px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_070{font-family:Arial,serif;font-size:16.1px;color:rgb(32,32,36);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_070{font-family:Arial,serif;font-size:16.1px;color:rgb(32,32,36);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_071{font-family:Arial,serif;font-size:25.0px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_071{font-family:Arial,serif;font-size:25.0px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_072{font-family:Arial,serif;font-size:25.0px;color:rgb(32,32,36);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_072{font-family:Arial,serif;font-size:25.0px;color:rgb(32,32,36);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_073{font-family:Arial,serif;font-size:123.0px;color:rgb(0,91,48);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_073{font-family:Arial,serif;font-size:123.0px;color:rgb(0,91,48);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_074{font-family:Arial,serif;font-size:41.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_074{font-family:Arial,serif;font-size:41.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_075{font-family:"Impact",serif;font-size:126.9px;color:rgb(90,27,36);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_075{font-family:"Impact",serif;font-size:126.9px;color:rgb(90,27,36);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_076{font-family:Arial,serif;font-size:31.0px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_076{font-family:Arial,serif;font-size:31.0px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_077{font-family:Times,serif;font-size:173.4px;color:rgb(218,36,26);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_077{font-family:Times,serif;font-size:173.4px;color:rgb(218,36,26);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_078{font-family:Times,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_078{font-family:Times,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_079{font-family:Arial,serif;font-size:40.6px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_079{font-family:Arial,serif;font-size:40.6px;color:rgb(32,32,36);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_080{font-family:Arial,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_080{font-family:Arial,serif;font-size:24.1px;color:rgb(30,26,22);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_090{font-family:Arial,serif;font-size:18.3px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_090{font-family:Arial,serif;font-size:18.3px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_081{font-family:Arial,serif;font-size:22.2px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_081{font-family:Arial,serif;font-size:22.2px;color:rgb(30,26,22);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_082{font-family:Arial,serif;font-size:18.3px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_082{font-family:Arial,serif;font-size:18.3px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_083{font-family:Courier New,serif;font-size:34.4px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_083{font-family:Courier New,serif;font-size:34.4px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_085{font-family:Times,serif;font-size:112.9px;color:rgb(203,102,26);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_085{font-family:Times,serif;font-size:112.9px;color:rgb(203,102,26);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_084{font-family:Times,serif;font-size:112.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_084{font-family:Times,serif;font-size:112.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_086{font-family:Arial,serif;font-size:28.0px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_086{font-family:Arial,serif;font-size:28.0px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_087{font-family:"Calibri Bold",serif;font-size:30.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_087{font-family:"Calibri Bold",serif;font-size:30.1px;color:rgb(30,26,22);font-weight:bold;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-595px;top:0px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background01.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:136.59px;top:716.26px" class="cls_002"><span class="cls_002">Medical Science and Theraphy Pharma</span></div>
+<div style="position:absolute;left:61.52px;top:734.14px" class="cls_002"><span class="cls_002">Shop No.C/3, Ground Floor, Shanti Garden, Lodha Heaven,</span></div>
+<div style="position:absolute;left:204.61px;top:752.01px" class="cls_002"><span class="cls_002">Dombivali (E) 421204</span></div>
+<div style="position:absolute;left:150.13px;top:769.89px" class="cls_002"><span class="cls_002">Email: mstpharma2015@gmail.com</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:851px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background02.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:1144.73px;top:73.17px" class="cls_005"><span class="cls_005">SMP</span></div>
+<div style="position:absolute;left:589.81px;top:216.13px" class="cls_004"><span class="cls_004">Chocolate</span></div>
+<div style="position:absolute;left:697.91px;top:216.04px" class="cls_003"><span class="cls_003">Kesar - Pista</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:1702px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background03.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:1144.73px;top:124.35px" class="cls_007"><span class="cls_007">S9G</span></div>
+<div style="position:absolute;left:648.28px;top:262.08px" class="cls_006"><span class="cls_006">L-Methylfolate- 5mg, Methylcobalamin - 1500mcg,</span></div>
+<div style="position:absolute;left:735.54px;top:284.43px" class="cls_006"><span class="cls_006">Pyridoxal - 5 Phosphate - 3mg</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:2553px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background04.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:299.40px;top:160.52px" class="cls_006"><span class="cls_006">L-Methylfolate- 5mg, Methylcobalamin - 1500mcg,</span></div>
+<div style="position:absolute;left:1137.93px;top:175.53px" class="cls_005"><span class="cls_005">S9DG</span></div>
+<div style="position:absolute;left:229.54px;top:182.87px" class="cls_006"><span class="cls_006">Pyridoxal - 5 Phosphate - 3mg, Vitamin D3 - 2000IU, DHA - 200IU</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:3404px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background05.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:1135.74px;top:226.72px" class="cls_007"><span class="cls_007">SORO</span></div>
+<div style="position:absolute;left:711.18px;top:236.39px" class="cls_008"><span class="cls_008">Tablet / Syrup</span></div>
+<div style="position:absolute;left:236.12px;top:282.07px" class="cls_008"><span class="cls_008">Ferrous Ascorbate - 100mg, Folic Acid - 1.5 mg,</span></div>
+<div style="position:absolute;left:289.32px;top:306.58px" class="cls_008"><span class="cls_008">Cyanocobalamin7.5mg and Zinc 22.5</span></div>
+<div style="position:absolute;left:119.41px;top:356.55px" class="cls_008"><span class="cls_008">Ferrous ascorbate 100mg and folic acid1.5mg with cyanocobalamin7.5mg and Zinc22.5.</span></div>
+<div style="position:absolute;left:119.41px;top:424.75px" class="cls_008"><span class="cls_008">Prevents and control Iron deficiency in Pregnancy.</span></div>
+<div style="position:absolute;left:119.41px;top:492.96px" class="cls_008"><span class="cls_008">Folic acid is a form of Vitamin B which plays important role in formation of red blood cells.</span></div>
+<div style="position:absolute;left:119.41px;top:561.17px" class="cls_008"><span class="cls_008">Helps is transportation and utilization of oxygen.</span></div>
+<div style="position:absolute;left:119.41px;top:629.38px" class="cls_008"><span class="cls_008">Ferrous ascorbate is world most widely recognized reference iron.</span></div>
+<div style="position:absolute;left:119.41px;top:697.58px" class="cls_009"><span class="cls_009">Zinc plays central role in cell division and Protein synthesis.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:4255px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background06.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:1136.93px;top:277.90px" class="cls_005"><span class="cls_005">SPRG</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:5106px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background07.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:99.54px;top:18.11px" class="cls_011"><span class="cls_011">S</span><span class="cls_012">9</span><span class="cls_013"> recharge</span></div>
+<div style="position:absolute;left:206.97px;top:174.17px" class="cls_010"><span class="cls_010">Instant energy drink Added with Vitamin C and D3</span></div>
+<div style="position:absolute;left:448.83px;top:247.83px" class="cls_014"><span class="cls_014">Dextrose Provides instant energy</span></div>
+<div style="position:absolute;left:448.83px;top:293.52px" class="cls_014"><span class="cls_014">Sucrose Provide Sustain energy</span></div>
+<div style="position:absolute;left:1138.83px;top:329.08px" class="cls_005"><span class="cls_005">S9RE</span></div>
+<div style="position:absolute;left:448.83px;top:342.44px" class="cls_014"><span class="cls_014">Vitamin C Increases resistance to infection and reduce stress</span></div>
+<div style="position:absolute;left:448.83px;top:386.62px" class="cls_014"><span class="cls_014">Lactobacillus helps to restore normal flora in intestine</span></div>
+<div style="position:absolute;left:448.83px;top:433.11px" class="cls_014"><span class="cls_014">Zinc ZN promotes resistance to infection and transfer into energy</span></div>
+<div style="position:absolute;left:448.83px;top:479.58px" class="cls_014"><span class="cls_014">Sodium NA Maintains electrolyte balance in the body</span></div>
+<div style="position:absolute;left:448.83px;top:526.08px" class="cls_014"><span class="cls_014">Potassium K Helps to prevent muscles cramps</span></div>
+<div style="position:absolute;left:448.83px;top:572.58px" class="cls_014"><span class="cls_014">Chloride CL maintains water balance in the body</span></div>
+<div style="position:absolute;left:346.57px;top:693.68px" class="cls_015"><span class="cls_015">Instant energy drink Added with Vitamin C and D3</span></div>
+<div style="position:absolute;left:75.37px;top:720.54px" class="cls_016"><span class="cls_016">3x 35 gm = 105 gm each box</span></div>
+<div style="position:absolute;left:346.57px;top:729.08px" class="cls_015"><span class="cls_015">Dosage 35gm in 200ml of cold water</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:5957px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background08.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:122.55px;top:268.03px" class="cls_018"><span class="cls_018">Vitamin D is a fat soluble vitamin helps in absorption of calcium magnesium and phosphate</span></div>
+<div style="position:absolute;left:244.19px;top:303.95px" class="cls_018"><span class="cls_018">Also plays important role in your nerve muscle and immune system.</span></div>
+<div style="position:absolute;left:1144.73px;top:380.26px" class="cls_005"><span class="cls_005">Gd3</span></div>
+<div style="position:absolute;left:138.22px;top:395.38px" class="cls_019"><span class="cls_019">Reduce chronic muscle aches.</span></div>
+<div style="position:absolute;left:138.22px;top:450.93px" class="cls_019"><span class="cls_019">Reduce risk of cardiovascular disease.</span></div>
+<div style="position:absolute;left:138.22px;top:506.48px" class="cls_019"><span class="cls_019">Reduce risk of developing diabetes</span></div>
+<div style="position:absolute;left:138.22px;top:562.04px" class="cls_019"><span class="cls_019">Reduce risk of osteoporosis</span></div>
+<div style="position:absolute;left:138.22px;top:617.59px" class="cls_019"><span class="cls_019">Control bold pressure</span></div>
+<div style="position:absolute;left:138.22px;top:673.14px" class="cls_019"><span class="cls_019">Improve proper bone development and muscles contraction</span></div>
+<div style="position:absolute;left:138.22px;top:728.69px" class="cls_019"><span class="cls_019">Improves cardiac dysfunction</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:6808px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background09.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:105.13px;top:131.50px" class="cls_020"><span class="cls_020">Fresh-Morn</span></div>
+<div style="position:absolute;left:124.95px;top:233.90px" class="cls_021"><span class="cls_021">A Complete Uterine Tonic for Girls & Women</span></div>
+<div style="position:absolute;left:118.06px;top:290.74px" class="cls_022"><span class="cls_022">Irregular menses</span></div>
+<div style="position:absolute;left:118.06px;top:322.91px" class="cls_022"><span class="cls_022">Backache</span></div>
+<div style="position:absolute;left:118.06px;top:355.09px" class="cls_022"><span class="cls_022">Bodyache</span></div>
+<div style="position:absolute;left:118.06px;top:387.26px" class="cls_022"><span class="cls_022">Giddiness</span></div>
+<div style="position:absolute;left:118.06px;top:419.44px" class="cls_022"><span class="cls_022">Leu Corrhoea</span></div>
+<div style="position:absolute;left:1144.73px;top:431.45px" class="cls_005"><span class="cls_005">FRM</span></div>
+<div style="position:absolute;left:118.06px;top:451.61px" class="cls_022"><span class="cls_022">Ammenorrhoea</span></div>
+<div style="position:absolute;left:118.06px;top:483.79px" class="cls_022"><span class="cls_022">Dysmenorrhea</span></div>
+<div style="position:absolute;left:118.06px;top:515.96px" class="cls_022"><span class="cls_022">General Debility</span></div>
+<div style="position:absolute;left:128.83px;top:576.60px" class="cls_023"><span class="cls_023">Each</span></div>
+<div style="position:absolute;left:199.33px;top:576.60px" class="cls_023"><span class="cls_023">10ml</span></div>
+<div style="position:absolute;left:128.84px;top:587.33px" class="cls_023"><span class="cls_023">Guduchi</span></div>
+<div style="position:absolute;left:199.33px;top:587.33px" class="cls_023"><span class="cls_023">300mg</span></div>
+<div style="position:absolute;left:128.84px;top:598.05px" class="cls_023"><span class="cls_023">Ashoka</span></div>
+<div style="position:absolute;left:199.33px;top:598.05px" class="cls_023"><span class="cls_023">300mg</span></div>
+<div style="position:absolute;left:128.84px;top:608.78px" class="cls_023"><span class="cls_023">Lodhra</span></div>
+<div style="position:absolute;left:199.33px;top:608.78px" class="cls_023"><span class="cls_023">300mg</span></div>
+<div style="position:absolute;left:128.84px;top:619.50px" class="cls_023"><span class="cls_023">Kakmachi</span></div>
+<div style="position:absolute;left:199.33px;top:619.50px" class="cls_023"><span class="cls_023">50mg</span></div>
+<div style="position:absolute;left:128.84px;top:630.23px" class="cls_023"><span class="cls_023">Punarnava</span></div>
+<div style="position:absolute;left:199.34px;top:630.23px" class="cls_023"><span class="cls_023">150mg</span></div>
+<div style="position:absolute;left:128.84px;top:640.95px" class="cls_023"><span class="cls_023">Musta</span></div>
+<div style="position:absolute;left:199.34px;top:640.95px" class="cls_023"><span class="cls_023">50mg</span></div>
+<div style="position:absolute;left:128.84px;top:651.67px" class="cls_023"><span class="cls_023">Anantnool</span></div>
+<div style="position:absolute;left:199.34px;top:651.67px" class="cls_023"><span class="cls_023">50mg</span></div>
+<div style="position:absolute;left:526.08px;top:642.92px" class="cls_006"><span class="cls_006">Prevents Frequent Urination</span></div>
+<div style="position:absolute;left:128.84px;top:662.40px" class="cls_023"><span class="cls_023">Amla</span></div>
+<div style="position:absolute;left:199.34px;top:662.40px" class="cls_023"><span class="cls_023">100mg</span></div>
+<div style="position:absolute;left:128.84px;top:673.12px" class="cls_023"><span class="cls_023">Harad</span></div>
+<div style="position:absolute;left:199.34px;top:673.12px" class="cls_023"><span class="cls_023">100mg</span></div>
+<div style="position:absolute;left:526.08px;top:665.27px" class="cls_006"><span class="cls_006">Prevents burning after urination</span></div>
+<div style="position:absolute;left:128.84px;top:683.85px" class="cls_023"><span class="cls_023">Baheda</span></div>
+<div style="position:absolute;left:199.34px;top:683.85px" class="cls_023"><span class="cls_023">100mg</span></div>
+<div style="position:absolute;left:128.84px;top:694.57px" class="cls_023"><span class="cls_023">Manjistha</span></div>
+<div style="position:absolute;left:199.34px;top:694.57px" class="cls_023"><span class="cls_023">50mg</span></div>
+<div style="position:absolute;left:526.08px;top:687.61px" class="cls_006"><span class="cls_006">Prevents cloudy urine</span></div>
+<div style="position:absolute;left:128.84px;top:705.30px" class="cls_023"><span class="cls_023">Pippali</span></div>
+<div style="position:absolute;left:199.34px;top:705.30px" class="cls_023"><span class="cls_023">20mg</span></div>
+<div style="position:absolute;left:128.84px;top:716.02px" class="cls_023"><span class="cls_023">Marich</span></div>
+<div style="position:absolute;left:199.34px;top:716.02px" class="cls_023"><span class="cls_023">20mg</span></div>
+<div style="position:absolute;left:526.08px;top:709.95px" class="cls_006"><span class="cls_006">Reduces anxiety stress</span></div>
+<div style="position:absolute;left:128.84px;top:726.75px" class="cls_023"><span class="cls_023">Shunti</span></div>
+<div style="position:absolute;left:199.34px;top:726.75px" class="cls_023"><span class="cls_023">20mg</span></div>
+<div style="position:absolute;left:128.84px;top:737.47px" class="cls_023"><span class="cls_023">Shalmali</span></div>
+<div style="position:absolute;left:199.34px;top:737.47px" class="cls_023"><span class="cls_023">25mg</span></div>
+<div style="position:absolute;left:526.08px;top:732.30px" class="cls_006"><span class="cls_006">Depression</span></div>
+<div style="position:absolute;left:128.84px;top:748.19px" class="cls_023"><span class="cls_023">Ashwagandha</span></div>
+<div style="position:absolute;left:199.34px;top:748.19px" class="cls_023"><span class="cls_023">100mg</span></div>
+<div style="position:absolute;left:128.84px;top:758.92px" class="cls_023"><span class="cls_023">Ashok chhal</span></div>
+<div style="position:absolute;left:199.34px;top:758.92px" class="cls_023"><span class="cls_023">600mg</span></div>
+<div style="position:absolute;left:128.84px;top:769.64px" class="cls_023"><span class="cls_023">Shatavari</span></div>
+<div style="position:absolute;left:199.34px;top:769.64px" class="cls_023"><span class="cls_023">150mg</span></div>
+<div style="position:absolute;left:128.84px;top:780.37px" class="cls_023"><span class="cls_023">Nagarmotha</span></div>
+<div style="position:absolute;left:199.34px;top:780.37px" class="cls_023"><span class="cls_023">300mg</span></div>
+<div style="position:absolute;left:128.84px;top:791.09px" class="cls_023"><span class="cls_023">Daru haldi</span></div>
+<div style="position:absolute;left:199.34px;top:791.09px" class="cls_023"><span class="cls_023">300mg</span></div>
+<div style="position:absolute;left:526.08px;top:785.81px" class="cls_024"><span class="cls_024">Dosage: </span><span class="cls_006">1-2 TSF thrice a day or as directed by the Healthcare expert</span></div>
+<div style="position:absolute;left:128.84px;top:801.82px" class="cls_023"><span class="cls_023">Anar chhal</span></div>
+<div style="position:absolute;left:199.34px;top:801.82px" class="cls_023"><span class="cls_023">300mg</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:7659px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background10.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:1144.71px;top:483.19px" class="cls_005"><span class="cls_005">STR</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:8510px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background11.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:113.99px;top:304.00px" class="cls_019"><span class="cls_019">Veeflora Is Specially Formulated Gentle Cleansing</span></div>
+<div style="position:absolute;left:113.99px;top:347.19px" class="cls_019"><span class="cls_019">And Refreshing Intimate Wash</span></div>
+<div style="position:absolute;left:111.68px;top:407.12px" class="cls_019"><span class="cls_019">It Prevents Itching, Irritation Burning And Unpleasant</span></div>
+<div style="position:absolute;left:111.68px;top:450.31px" class="cls_019"><span class="cls_019">Odour.</span></div>
+<div style="position:absolute;left:113.34px;top:513.36px" class="cls_019"><span class="cls_019">Contains Natural Herbs Mild Active Ingredient</span></div>
+<div style="position:absolute;left:1145.11px;top:533.31px" class="cls_005"><span class="cls_005">VEF</span></div>
+<div style="position:absolute;left:113.34px;top:556.55px" class="cls_019"><span class="cls_019">Which Helps To Protect The Natural Acidic Ph Balance</span></div>
+<div style="position:absolute;left:111.32px;top:638.86px" class="cls_019"><span class="cls_019">Use Veeflora Daily For Long Lasting Freshness And</span></div>
+<div style="position:absolute;left:111.32px;top:682.05px" class="cls_019"><span class="cls_019">Wellbeing Especially During Menstruation Before And</span></div>
+<div style="position:absolute;left:111.32px;top:725.24px" class="cls_019"><span class="cls_019">After Intercourse During Pregnancy And Post Delivery</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:9361px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background12.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:146.28px;top:96.25px" class="cls_027"><span class="cls_027">S9-Dical</span></div>
+<div style="position:absolute;left:102.19px;top:228.31px" class="cls_026"><span class="cls_026">Dicalcium malate 400 mg+Vitamin  D3</span></div>
+<div style="position:absolute;left:99.09px;top:272.44px" class="cls_026"><span class="cls_026">500IU +Folic acid 1 mg +Glycine 10mg</span></div>
+<div style="position:absolute;left:136.79px;top:355.70px" class="cls_025"><span class="cls_025">DiCalcium Malate absorbtion rate  is 29 percent calcium</span></div>
+<div style="position:absolute;left:136.79px;top:382.28px" class="cls_025"><span class="cls_025">(two calcium molecules for each malate molecule) compared</span></div>
+<div style="position:absolute;left:142.79px;top:408.86px" class="cls_025"><span class="cls_025">to calcium citrate, which is 19 percent calcium Only.</span></div>
+<div style="position:absolute;left:136.79px;top:462.02px" class="cls_025"><span class="cls_025">Provides support for muscle contraction in skeletal muscle, the heart</span></div>
+<div style="position:absolute;left:136.79px;top:488.60px" class="cls_025"><span class="cls_025">and blood vessels.</span></div>
+<div style="position:absolute;left:136.79px;top:541.76px" class="cls_025"><span class="cls_025">Two mole of calcium with glycine strengthen bone and muscles.</span></div>
+<div style="position:absolute;left:1142.46px;top:584.99px" class="cls_005"><span class="cls_005">S9DI</span></div>
+<div style="position:absolute;left:136.79px;top:594.92px" class="cls_025"><span class="cls_025">Glycine helps in improving baby's birth weight.</span></div>
+<div style="position:absolute;left:136.79px;top:648.08px" class="cls_025"><span class="cls_025">Malic acid is more soluble than citric acid.</span></div>
+<div style="position:absolute;left:136.79px;top:701.24px" class="cls_025"><span class="cls_025">Prevents maternal bone loss during lactation and is required</span></div>
+<div style="position:absolute;left:136.79px;top:727.82px" class="cls_025"><span class="cls_025">for breast milk production.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:10212px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background13.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:193.67px;top:114.38px" class="cls_030"><span class="cls_030">VeeNeed</span></div>
+<div style="position:absolute;left:159.16px;top:252.60px" class="cls_024"><span class="cls_024">Family Protein Powder/ Multivitamin Tablet & Syrup</span></div>
+<div style="position:absolute;left:122.73px;top:351.75px" class="cls_029"><span class="cls_029">Veeneed increases strength and muscles mass.</span></div>
+<div style="position:absolute;left:122.73px;top:404.54px" class="cls_029"><span class="cls_029">Protein helps woman to maintain radiant skin strong bones and helps the body</span></div>
+<div style="position:absolute;left:122.73px;top:430.93px" class="cls_029"><span class="cls_029">recover faster from injury.</span></div>
+<div style="position:absolute;left:122.73px;top:483.72px" class="cls_029"><span class="cls_029">One of the biggest benefits of proteins for woman is that its provides energy all day long.</span></div>
+<div style="position:absolute;left:122.73px;top:536.50px" class="cls_029"><span class="cls_029">Production of enzymes and hormones in teen which experience rapid change in development.</span></div>
+<div style="position:absolute;left:122.73px;top:589.29px" class="cls_029"><span class="cls_029">Protein is essential for growing child which will make them taller stronger and sharper.</span></div>
+<div style="position:absolute;left:1144.73px;top:636.18px" class="cls_005"><span class="cls_005">VEN</span></div>
+<div style="position:absolute;left:122.73px;top:642.07px" class="cls_029"><span class="cls_029">Older adults need to eat more protein for loss of weight in dealing with chronic and acute illness.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:11063px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background14.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:250.57px;top:5.66px" class="cls_032"><span class="cls_032">S9-C</span></div>
+<div style="position:absolute;left:155.75px;top:176.81px" class="cls_033"><span class="cls_033">Folic Acid 5mg, VitaminB12 1500mcg,</span></div>
+<div style="position:absolute;left:188.49px;top:214.37px" class="cls_033"><span class="cls_033">Vitamin C 500mg And Zinc 7.5mg</span></div>
+<div style="position:absolute;left:291.08px;top:255.69px" class="cls_033"><span class="cls_033">Vitamin D3 2000 IU</span></div>
+<div style="position:absolute;left:143.94px;top:348.79px" class="cls_031"><span class="cls_031">Immunity</span></div>
+<div style="position:absolute;left:143.94px;top:392.74px" class="cls_031"><span class="cls_031">Neuropathy</span></div>
+<div style="position:absolute;left:749.83px;top:412.80px" class="cls_036"><span class="cls_036">Folic Acid 5mg-</span></div>
+<div style="position:absolute;left:749.83px;top:433.80px" class="cls_034"><span class="cls_034">It is advise to take 5mg of folic acid each day</span></div>
+<div style="position:absolute;left:749.83px;top:448.80px" class="cls_034"><span class="cls_034">until 12 weeks pregnant if they have higher</span></div>
+<div style="position:absolute;left:143.94px;top:436.68px" class="cls_031"><span class="cls_031">Nephropathy</span></div>
+<div style="position:absolute;left:749.83px;top:463.80px" class="cls_034"><span class="cls_034">chance of having pregnancy affected by neural</span></div>
+<div style="position:absolute;left:749.83px;top:478.80px" class="cls_034"><span class="cls_034">tube defect</span></div>
+<div style="position:absolute;left:143.94px;top:480.63px" class="cls_031"><span class="cls_031">Weakness</span></div>
+<div style="position:absolute;left:749.83px;top:502.80px" class="cls_036"><span class="cls_036">Vitamin B12 1500mcg</span></div>
+<div style="position:absolute;left:749.83px;top:523.80px" class="cls_034"><span class="cls_034">Vitamin B12 supplements helps to prevent spina</span></div>
+<div style="position:absolute;left:753.72px;top:538.80px" class="cls_034"><span class="cls_034">bifida and other spinal and central nervous system</span></div>
+<div style="position:absolute;left:143.94px;top:524.57px" class="cls_031"><span class="cls_031">Nerve damage</span></div>
+<div style="position:absolute;left:753.72px;top:553.80px" class="cls_034"><span class="cls_034">birth defects in your baby</span></div>
+<div style="position:absolute;left:749.83px;top:577.80px" class="cls_036"><span class="cls_036">Vitamin C</span></div>
+<div style="position:absolute;left:143.94px;top:568.51px" class="cls_031"><span class="cls_031">Fatigue</span></div>
+<div style="position:absolute;left:749.83px;top:598.80px" class="cls_034"><span class="cls_034">Is vital for both mom and baby you need it for</span></div>
+<div style="position:absolute;left:749.83px;top:613.80px" class="cls_034"><span class="cls_034">tissue repair and wound healing and its helps</span></div>
+<div style="position:absolute;left:749.83px;top:628.80px" class="cls_034"><span class="cls_034">in development of bone and teeth</span></div>
+<div style="position:absolute;left:143.94px;top:612.46px" class="cls_031"><span class="cls_031">Nervousness</span></div>
+<div style="position:absolute;left:753.72px;top:643.80px" class="cls_034"><span class="cls_034">It's an immunity booster as well</span></div>
+<div style="position:absolute;left:749.83px;top:667.80px" class="cls_036"><span class="cls_036">Zinc</span></div>
+<div style="position:absolute;left:143.94px;top:656.40px" class="cls_031"><span class="cls_031">Dizziness</span></div>
+<div style="position:absolute;left:749.83px;top:688.79px" class="cls_034"><span class="cls_034">According to WHO adequate supply of zinc is</span></div>
+<div style="position:absolute;left:1144.73px;top:687.36px" class="cls_005"><span class="cls_005">S9C</span></div>
+<div style="position:absolute;left:753.72px;top:703.79px" class="cls_034"><span class="cls_034">important for pregnant woman</span></div>
+<div style="position:absolute;left:749.83px;top:718.79px" class="cls_034"><span class="cls_034">Zinc plays central role of in cell division and</span></div>
+<div style="position:absolute;left:143.94px;top:700.35px" class="cls_031"><span class="cls_031">Hyerhomocysteinemia</span></div>
+<div style="position:absolute;left:749.83px;top:733.79px" class="cls_034"><span class="cls_034">Protein synthesis</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:11914px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background15.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:1145.30px;top:73.46px" class="cls_007"><span class="cls_007">RKP</span></div>
+<div style="position:absolute;left:166.04px;top:120.13px" class="cls_037"><span class="cls_037">Rok-P</span></div>
+<div style="position:absolute;left:99.64px;top:224.76px" class="cls_038"><span class="cls_038">Aceclofenac 100mg,</span><span class="cls_039">Paracetamol:325mg</span></div>
+<div style="position:absolute;left:81.33px;top:291.64px" class="cls_040"><span class="cls_040"></span><span class="cls_005"> Rok-P</span><span class="cls_040"> is a pain relieving medicine.</span></div>
+<div style="position:absolute;left:81.33px;top:311.74px" class="cls_040"><span class="cls_040"></span><span class="cls_005"> Rok-P</span><span class="cls_040"> used to reduce pain and inflammation in conditions like</span></div>
+<div style="position:absolute;left:105.05px;top:331.85px" class="cls_040"><span class="cls_040">Rheumatoid arthritis, ankylosing spondylitis, and osteoarthritis.</span></div>
+<div style="position:absolute;left:81.33px;top:351.96px" class="cls_040"><span class="cls_040"></span><span class="cls_005"> Rok-P</span><span class="cls_040"> is used to relieve muscle pain, back pain, toothache or pain in the ear and throat.</span></div>
+<div style="position:absolute;left:166.45px;top:409.90px" class="cls_037"><span class="cls_037">Rok-SP</span></div>
+<div style="position:absolute;left:229.08px;top:514.53px" class="cls_038"><span class="cls_038">Aceclofenac 100mg</span></div>
+<div style="position:absolute;left:85.18px;top:544.63px" class="cls_039"><span class="cls_039">Paracetamol:325mg, Serratiopeptidase :15mg</span></div>
+<div style="position:absolute;left:81.36px;top:611.65px" class="cls_040"><span class="cls_040">   Aceclofenac+Paracetamol+Serratiopeptidase is used for pain relief.</span></div>
+<div style="position:absolute;left:81.36px;top:635.78px" class="cls_040"><span class="cls_040"></span><span class="cls_005">   Rok-SP</span><span class="cls_040"> relieves pain in conditions like headache, mild migraine,</span></div>
+<div style="position:absolute;left:116.92px;top:661.92px" class="cls_040"><span class="cls_040">musculoskeletal pain or painful menses.</span></div>
+<div style="position:absolute;left:81.36px;top:688.06px" class="cls_040"><span class="cls_040">   They  work  by  blocking  the  release  of  certain  chemical  messengers</span></div>
+<div style="position:absolute;left:116.91px;top:714.20px" class="cls_040"><span class="cls_040">in the brain that cause pain and fever.</span></div>
+<div style="position:absolute;left:81.35px;top:740.35px" class="cls_040"><span class="cls_040">   Serratiopeptidase breaks down abnormal proteins at the site of inflammation and</span></div>
+<div style="position:absolute;left:116.91px;top:766.49px" class="cls_040"><span class="cls_040">promotes healing.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:12765px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background16.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:1136.66px;top:124.06px" class="cls_005"><span class="cls_005">SMCL</span></div>
+<div style="position:absolute;left:320.68px;top:48.51px" class="cls_042"><span class="cls_042">SUMCLAV-625</span></div>
+<div style="position:absolute;left:273.30px;top:193.35px" class="cls_041"><span class="cls_041">Amoxicillin 500mg, Clavunic Acid 125 & Lactobacillus 60 Million Spores</span></div>
+<div style="position:absolute;left:128.10px;top:303.44px" class="cls_043"><span class="cls_043">Amoxicillin/clavulanic acid is a combination penicillin-type antibiotic used to treat a wide variety of</span></div>
+<div style="position:absolute;left:128.10px;top:332.73px" class="cls_043"><span class="cls_043">bacterial infections</span></div>
+<div style="position:absolute;left:128.10px;top:391.32px" class="cls_043"><span class="cls_043">Amoxicillin and clavulanate potassium is a combination medicine used to treat many</span></div>
+<div style="position:absolute;left:128.10px;top:420.62px" class="cls_043"><span class="cls_043">different infections caused by bacteria such as</span></div>
+<div style="position:absolute;left:162.11px;top:513.12px" class="cls_044"><span class="cls_044">Sinusitis</span></div>
+<div style="position:absolute;left:162.11px;top:546.25px" class="cls_044"><span class="cls_044">Pneumonia</span></div>
+<div style="position:absolute;left:162.11px;top:578.04px" class="cls_044"><span class="cls_044">Ear, Nose and Throat infections</span></div>
+<div style="position:absolute;left:162.11px;top:612.71px" class="cls_044"><span class="cls_044">Bronchitis</span></div>
+<div style="position:absolute;left:162.11px;top:643.90px" class="cls_044"><span class="cls_044">Urinary tract infections</span></div>
+<div style="position:absolute;left:162.11px;top:679.03px" class="cls_044"><span class="cls_044">Infections of the skin</span></div>
+<div style="position:absolute;left:162.11px;top:710.17px" class="cls_044"><span class="cls_044">Lactobacillus helps to restore normal flora in intestine</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:13616px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background17.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:1145.30px;top:175.83px" class="cls_005"><span class="cls_005">PNX</span></div>
+<div style="position:absolute;left:141.72px;top:439.73px" class="cls_008"><span class="cls_008">Panox  40 is proton pump inhabitor drug that</span></div>
+<div style="position:absolute;left:670.17px;top:438.83px" class="cls_008"><span class="cls_008">Effective combination for treating hyperacidity</span></div>
+<div style="position:absolute;left:141.72px;top:503.93px" class="cls_008"><span class="cls_008">inhabits gastric acid secretion</span></div>
+<div style="position:absolute;left:676.15px;top:503.89px" class="cls_008"><span class="cls_008">Associated with nausea  and vomiting</span></div>
+<div style="position:absolute;left:141.72px;top:568.13px" class="cls_008"><span class="cls_008">Most effective in preventing stress ulcers</span></div>
+<div style="position:absolute;left:670.17px;top:568.96px" class="cls_008"><span class="cls_008">Blocked excess round the clock</span></div>
+<div style="position:absolute;left:141.72px;top:632.33px" class="cls_008"><span class="cls_008">Gastric duodenal and intestinal ulcer</span></div>
+<div style="position:absolute;left:670.17px;top:634.02px" class="cls_008"><span class="cls_008">G I ulcer, Heart burn</span></div>
+<div style="position:absolute;left:141.72px;top:696.53px" class="cls_008"><span class="cls_008">Nausea and vomiting</span></div>
+<div style="position:absolute;left:670.17px;top:699.09px" class="cls_008"><span class="cls_008">Adjunct to NSAID and post-surgery</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:14467px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background18.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:1145.30px;top:226.43px" class="cls_005"><span class="cls_005">RBP</span></div>
+<div style="position:absolute;left:137.29px;top:380.95px" class="cls_008"><span class="cls_008">Rabeprazole 20 Mg</span></div>
+<div style="position:absolute;left:706.99px;top:407.11px" class="cls_008"><span class="cls_008">Rabeprazole 20mg + Domperidone 30mg</span></div>
+<div style="position:absolute;left:137.29px;top:446.11px" class="cls_008"><span class="cls_008">It Is used to treat the gerd</span></div>
+<div style="position:absolute;left:701.26px;top:471.15px" class="cls_008"><span class="cls_008">Domperidone does not readily cross the blood</span></div>
+<div style="position:absolute;left:701.26px;top:502.54px" class="cls_008"><span class="cls_008">brain barrier</span></div>
+<div style="position:absolute;left:137.29px;top:511.27px" class="cls_008"><span class="cls_008">It Is also use to treat condition in which stomach</span></div>
+<div style="position:absolute;left:711.79px;top:563.11px" class="cls_008"><span class="cls_008">Acidic reflux</span></div>
+<div style="position:absolute;left:137.29px;top:576.43px" class="cls_008"><span class="cls_008">produces too much acid.</span></div>
+<div style="position:absolute;left:711.79px;top:618.35px" class="cls_008"><span class="cls_008">Dyspepsia</span></div>
+<div style="position:absolute;left:137.29px;top:641.59px" class="cls_008"><span class="cls_008">It is used to treat ulcer</span></div>
+<div style="position:absolute;left:711.79px;top:673.59px" class="cls_008"><span class="cls_008">Vomiting</span></div>
+<div style="position:absolute;left:137.29px;top:706.75px" class="cls_008"><span class="cls_008">Decreases the amount of acid made in stomach</span></div>
+<div style="position:absolute;left:711.79px;top:728.84px" class="cls_008"><span class="cls_008">Regurgitation</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:15318px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background19.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:1144.73px;top:277.90px" class="cls_005"><span class="cls_005">AMB</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:16169px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background20.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:104.16px;top:48.94px" class="cls_047"><span class="cls_047">KAAF-ALL</span></div>
+<div style="position:absolute;left:145.74px;top:159.45px" class="cls_045"><span class="cls_045">Herbal Cough Syrups</span></div>
+<div style="position:absolute;left:1145.30px;top:328.79px" class="cls_007"><span class="cls_007">KAF</span></div>
+<div style="position:absolute;left:20.61px;top:330.88px" class="cls_048"><span class="cls_048">Provide relief from dry and wet cough</span></div>
+<div style="position:absolute;left:21.81px;top:349.67px" class="cls_024"><span class="cls_024">Syrup contains potent herbs which has</span></div>
+<div style="position:absolute;left:21.81px;top:372.01px" class="cls_024"><span class="cls_024">anti-inflammatory in nature. They offer a cooling</span></div>
+<div style="position:absolute;left:21.81px;top:394.35px" class="cls_024"><span class="cls_024">effect to effectively heal and soothe your</span></div>
+<div style="position:absolute;left:21.81px;top:416.70px" class="cls_024"><span class="cls_024">throat and give relief from the pain caused</span></div>
+<div style="position:absolute;left:21.81px;top:439.04px" class="cls_024"><span class="cls_024">by excessive coughing.</span></div>
+<div style="position:absolute;left:21.81px;top:461.38px" class="cls_024"><span class="cls_024">Provide relief from dry and wet cough</span></div>
+<div style="position:absolute;left:505.93px;top:464.11px" class="cls_088"><span class="cls_088">Composition:</span></div>
+<div style="position:absolute;left:21.81px;top:483.73px" class="cls_024"><span class="cls_024">Reduces inflammation caused by intense</span></div>
+<div style="position:absolute;left:507.16px;top:501.52px" class="cls_049"><span class="cls_049">Somvali Steam</span></div>
+<div style="position:absolute;left:684.41px;top:501.27px" class="cls_049"><span class="cls_049">Tamal Patra</span></div>
+<div style="position:absolute;left:21.81px;top:506.07px" class="cls_024"><span class="cls_024">coughing</span></div>
+<div style="position:absolute;left:507.16px;top:523.24px" class="cls_049"><span class="cls_049">Ardusi</span></div>
+<div style="position:absolute;left:684.41px;top:522.99px" class="cls_049"><span class="cls_049">Taj</span></div>
+<div style="position:absolute;left:21.81px;top:528.42px" class="cls_024"><span class="cls_024">Provide relief from sore throat</span></div>
+<div style="position:absolute;left:507.16px;top:544.96px" class="cls_049"><span class="cls_049">Sunth</span></div>
+<div style="position:absolute;left:684.41px;top:544.70px" class="cls_049"><span class="cls_049">Laving</span></div>
+<div style="position:absolute;left:21.81px;top:550.76px" class="cls_024"><span class="cls_024">100 percent Ayurvedic Herbs.</span></div>
+<div style="position:absolute;left:507.16px;top:566.67px" class="cls_049"><span class="cls_049">Kala Mari</span></div>
+<div style="position:absolute;left:684.41px;top:566.42px" class="cls_049"><span class="cls_049">Jayphal</span></div>
+<div style="position:absolute;left:507.16px;top:588.39px" class="cls_049"><span class="cls_049">Pipal</span></div>
+<div style="position:absolute;left:684.41px;top:588.14px" class="cls_049"><span class="cls_049">Sh. Tankan</span></div>
+<div style="position:absolute;left:507.16px;top:610.11px" class="cls_049"><span class="cls_049">Baheda</span></div>
+<div style="position:absolute;left:684.41px;top:609.85px" class="cls_049"><span class="cls_049">Peepermint Phool</span></div>
+<div style="position:absolute;left:507.16px;top:631.82px" class="cls_049"><span class="cls_049">Tulsi</span></div>
+<div style="position:absolute;left:728.25px;top:687.33px" class="cls_089"><span class="cls_089">Dosage</span></div>
+<div style="position:absolute;left:733.31px;top:711.96px" class="cls_049"><span class="cls_049">5 to 10 ml thrice a day for Adult.</span></div>
+<div style="position:absolute;left:733.31px;top:740.53px" class="cls_049"><span class="cls_049">2.5 to 5 ml thrice a day for Children.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:17020px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background21.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:55.01px;top:54.71px" class="cls_051"><span class="cls_051">Rokcool</span></div>
+<div style="position:absolute;left:124.01px;top:181.95px" class="cls_052"><span class="cls_052">Pregnancy safe Ayurvedic Balm</span></div>
+<div style="position:absolute;left:92.54px;top:263.82px" class="cls_050"><span class="cls_050">Back Pain</span></div>
+<div style="position:absolute;left:92.54px;top:287.06px" class="cls_050"><span class="cls_050">Cramps During Pregnancy</span></div>
+<div style="position:absolute;left:92.54px;top:310.29px" class="cls_050"><span class="cls_050">Indigestion Leg Cramps</span></div>
+<div style="position:absolute;left:92.54px;top:333.53px" class="cls_050"><span class="cls_050">Lower Abdominal Pain</span></div>
+<div style="position:absolute;left:92.54px;top:356.77px" class="cls_050"><span class="cls_050">Pinched Nerve</span></div>
+<div style="position:absolute;left:92.54px;top:380.00px" class="cls_050"><span class="cls_050">Swollen Ankles and Feet</span></div>
+<div style="position:absolute;left:1144.73px;top:380.26px" class="cls_005"><span class="cls_005">RCL</span></div>
+<div style="position:absolute;left:92.54px;top:403.24px" class="cls_050"><span class="cls_050">Swollen and Tender Breasts</span></div>
+<div style="position:absolute;left:92.54px;top:426.48px" class="cls_050"><span class="cls_050">Varicose Veins and Hemorrhoids</span></div>
+<div style="position:absolute;left:92.54px;top:449.72px" class="cls_050"><span class="cls_050">When to See a Doctor: Abnormal Pregnancy</span></div>
+<div style="position:absolute;left:92.54px;top:472.95px" class="cls_050"><span class="cls_050">Aches and Pains</span></div>
+<div style="position:absolute;left:92.44px;top:533.50px" class="cls_053"><span class="cls_053">Starting from 1st trimester till last trimester,</span></div>
+<div style="position:absolute;left:92.44px;top:553.61px" class="cls_053"><span class="cls_053">pregnant women experience different kinds of pains,</span></div>
+<div style="position:absolute;left:92.44px;top:573.72px" class="cls_053"><span class="cls_053">bloating, cramps and numbness. Headaches are</span></div>
+<div style="position:absolute;left:92.44px;top:593.83px" class="cls_053"><span class="cls_053">one of the most common pregnancy complaints.</span></div>
+<div style="position:absolute;left:92.44px;top:613.93px" class="cls_053"><span class="cls_053">Try to get plenty of rest, and practice relaxation</span></div>
+<div style="position:absolute;left:650.40px;top:610.99px" class="cls_024"><span class="cls_024">Can I Use a Rokcool Balm While Pregnant ?</span></div>
+<div style="position:absolute;left:92.44px;top:634.04px" class="cls_053"><span class="cls_053">techniques like deep breathing. Use ROKCOOL BALM</span></div>
+<div style="position:absolute;left:650.40px;top:633.33px" class="cls_006"><span class="cls_006">In short, over-the-counter Rokcool Balm are OK to use</span></div>
+<div style="position:absolute;left:650.40px;top:655.68px" class="cls_006"><span class="cls_006">while pregnant because of their low concentration of</span></div>
+<div style="position:absolute;left:650.40px;top:678.02px" class="cls_006"><span class="cls_006">ingredients, according to Christine Sterling, MD, FACOG,</span></div>
+<div style="position:absolute;left:650.40px;top:700.36px" class="cls_006"><span class="cls_006">a board-certified ob-gyn in California. Due to the large</span></div>
+<div style="position:absolute;left:650.40px;top:722.71px" class="cls_006"><span class="cls_006">volume of different formulations available, Dr. Sterling</span></div>
+<div style="position:absolute;left:650.40px;top:745.05px" class="cls_006"><span class="cls_006">recommends speaking with your doctor before using</span></div>
+<div style="position:absolute;left:650.40px;top:767.39px" class="cls_006"><span class="cls_006">topical medications, especially while pregnant.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:17871px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background22.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:356.89px;top:225.19px" class="cls_006"><span class="cls_006">L-Methylfolate- 5mg, Methylcobalamin - 1500mcg,</span></div>
+<div style="position:absolute;left:444.14px;top:247.54px" class="cls_006"><span class="cls_006">Pyridoxal - 5 Phosphate - 3mg</span></div>
+<div style="position:absolute;left:184.27px;top:352.01px" class="cls_054"><span class="cls_054">Peripheral Neuropathy</span></div>
+<div style="position:absolute;left:184.27px;top:402.60px" class="cls_054"><span class="cls_054">Dizziness</span></div>
+<div style="position:absolute;left:1144.73px;top:431.45px" class="cls_005"><span class="cls_005">S9P</span></div>
+<div style="position:absolute;left:184.27px;top:453.20px" class="cls_054"><span class="cls_054">Dermatitis</span></div>
+<div style="position:absolute;left:184.27px;top:503.79px" class="cls_054"><span class="cls_054">Inflamed eyes</span></div>
+<div style="position:absolute;left:184.27px;top:554.39px" class="cls_054"><span class="cls_054">Methycobalamin- Has strong effect on the brain and nervous system</span></div>
+<div style="position:absolute;left:184.27px;top:604.99px" class="cls_054"><span class="cls_054">Helps is cell growth and reproduction</span></div>
+<div style="position:absolute;left:184.27px;top:655.58px" class="cls_054"><span class="cls_054">Pyridoxal- First line treatment for nausea and vomiting</span></div>
+<div style="position:absolute;left:184.27px;top:706.18px" class="cls_054"><span class="cls_054">Hyperhomocysteinemia - Diabetic Neuropathy</span></div>
+<div style="position:absolute;left:184.27px;top:756.77px" class="cls_054"><span class="cls_054">Fertility support</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:18722px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background23.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:243.51px;top:179.16px" class="cls_006"><span class="cls_006">L-Methylfolate- 5mg, Methylcobalamin - 1500mcg,</span></div>
+<div style="position:absolute;left:176.43px;top:201.51px" class="cls_006"><span class="cls_006">Pyridoxal - 5 Phosphate - 3mg, Vitamin D3-2000 IU, DHA - 200IU</span></div>
+<div style="position:absolute;left:1138.79px;top:482.63px" class="cls_005"><span class="cls_005">S9DP</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:19573px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background24.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:103.60px;top:115.43px" class="cls_055"><span class="cls_055">Rokshine </span><span class="cls_056">C</span></div>
+<div style="position:absolute;left:307.98px;top:251.23px" class="cls_057"><span class="cls_057">Face wash</span></div>
+<div style="position:absolute;left:232.45px;top:277.89px" class="cls_057"><span class="cls_057">Enrich with Vitamin - C</span></div>
+<div style="position:absolute;left:128.57px;top:328.14px" class="cls_058"><span class="cls_058">The Expert’s Choice for Radiants Skin</span></div>
+<div style="position:absolute;left:128.57px;top:343.39px" class="cls_058"><span class="cls_058">The Sulfate Free Formulation that Avoids Irritation</span></div>
+<div style="position:absolute;left:593.84px;top:346.03px" class="cls_002"><span class="cls_002">Key Ingredients</span></div>
+<div style="position:absolute;left:593.84px;top:369.26px" class="cls_059"><span class="cls_059">Vitamin C (Sodium Ascorbyl Phosphate) 3%, Hyaluronic</span></div>
+<div style="position:absolute;left:593.84px;top:392.50px" class="cls_059"><span class="cls_059">Acid 0.5%, Disodium EDTA, Acrylates/ C 10-30 Alkyl</span></div>
+<div style="position:absolute;left:593.84px;top:415.74px" class="cls_059"><span class="cls_059">Acrylate Crosspolymer. Aloevera Extract, Glycerin, D-Phanthenol,</span></div>
+<div style="position:absolute;left:118.82px;top:406.58px" class="cls_019"><span class="cls_019">Anti Acne</span></div>
+<div style="position:absolute;left:593.84px;top:438.98px" class="cls_059"><span class="cls_059">Decyl Glucoside, Coco Gulcoside, ACULYN 60 (PEG 150- Distearate).</span></div>
+<div style="position:absolute;left:593.84px;top:462.21px" class="cls_059"><span class="cls_059">Sodium Laurylglucosides Hydroxypropylsulfonate, Sodium Cocoyl</span></div>
+<div style="position:absolute;left:118.82px;top:446.79px" class="cls_019"><span class="cls_019">Anti Pollutant</span></div>
+<div style="position:absolute;left:593.84px;top:485.45px" class="cls_059"><span class="cls_059">Apple Amino Acids, Perfume. Buly Hydroxy</span></div>
+<div style="position:absolute;left:118.82px;top:487.01px" class="cls_019"><span class="cls_019">Anti Inflammatory</span></div>
+<div style="position:absolute;left:593.84px;top:508.69px" class="cls_059"><span class="cls_059">Anisple (BHA), Phenoxyethanol, DMDM Hydantoin, Biosaccharide</span></div>
+<div style="position:absolute;left:593.84px;top:531.92px" class="cls_059"><span class="cls_059">Gum-4, Saccharide Isomerate, Milliglobules Maroon, Milliglobules</span></div>
+<div style="position:absolute;left:1144.73px;top:533.81px" class="cls_005"><span class="cls_005">RSC</span></div>
+<div style="position:absolute;left:118.82px;top:527.23px" class="cls_019"><span class="cls_019">Non Irritant Base</span></div>
+<div style="position:absolute;left:593.84px;top:555.16px" class="cls_059"><span class="cls_059">Blue, Milliglobules White , Sunset Yellow Color, Raspberry Red Color</span></div>
+<div style="position:absolute;left:593.84px;top:578.40px" class="cls_059"><span class="cls_059">Triethanolamine, D.M. Water</span></div>
+<div style="position:absolute;left:118.82px;top:567.45px" class="cls_019"><span class="cls_019">Anti Oxidant</span></div>
+<div style="position:absolute;left:118.82px;top:607.66px" class="cls_019"><span class="cls_019">Maintain Viscoelasticity</span></div>
+<div style="position:absolute;left:118.82px;top:647.88px" class="cls_019"><span class="cls_019">Boost Collagen Synthesis</span></div>
+<div style="position:absolute;left:118.82px;top:688.10px" class="cls_019"><span class="cls_019">Sun Damage Protection</span></div>
+<div style="position:absolute;left:556.83px;top:760.98px" class="cls_060"><span class="cls_060">Hyaluronic Acid </span><span class="cls_006">helps the skin maintain moisture and helps</span></div>
+<div style="position:absolute;left:615.04px;top:794.19px" class="cls_006"><span class="cls_006">the tissue regeneration process involved in healing wounds.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:20424px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background25.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:130.99px;top:0.00px" class="cls_062"><span class="cls_062">GlyAll</span></div>
+<div style="position:absolute;left:345.76px;top:160.13px" class="cls_063"><span class="cls_063">The transparent emollient Soap</span></div>
+<div style="position:absolute;left:149.94px;top:191.24px" class="cls_064"><span class="cls_064">Glycerine 10%, Natural Vitamin E 0.5 &  Aloevera 2.0%</span></div>
+<div style="position:absolute;left:476.42px;top:235.36px" class="cls_065"><span class="cls_065">Keeps your skin soft & Supple</span></div>
+<div style="position:absolute;left:68.71px;top:319.46px" class="cls_061"><span class="cls_061">Protective barrier on the skin and hair.</span></div>
+<div style="position:absolute;left:68.71px;top:359.99px" class="cls_061"><span class="cls_061">This can help you detangle your hair, prevent breakage, and reduce frizz.</span></div>
+<div style="position:absolute;left:68.71px;top:402.15px" class="cls_061"><span class="cls_061">Glycerine hydrates skin, helps you shed dead skin cells and gives your skin a smooth, youthful glow.</span></div>
+<div style="position:absolute;left:68.71px;top:444.27px" class="cls_061"><span class="cls_061">Glycerine is used to help skin conditions like eczema or psoriasis</span></div>
+<div style="position:absolute;left:68.71px;top:486.46px" class="cls_061"><span class="cls_061">Glycerine will not clog pores or dry out the skin, and it's safe to use</span></div>
+<div style="position:absolute;left:68.71px;top:561.65px" class="cls_066"><span class="cls_066">KEEPS SKIN YOUNG</span></div>
+<div style="position:absolute;left:1144.24px;top:584.69px" class="cls_007"><span class="cls_007">GLY</span></div>
+<div style="position:absolute;left:68.71px;top:618.00px" class="cls_066"><span class="cls_066">REDUCES ACNE</span></div>
+<div style="position:absolute;left:68.71px;top:677.32px" class="cls_066"><span class="cls_066">MOISTURIZES SKIN</span></div>
+<div style="position:absolute;left:68.71px;top:737.03px" class="cls_066"><span class="cls_066">IT'S GENTLE ON SKIN</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:21275px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background26.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:325.54px;top:0.00px" class="cls_068"><span class="cls_068">ALOEBEST</span></div>
+<div style="position:absolute;left:664.39px;top:122.79px" class="cls_069"><span class="cls_069">Chlorhexidine 1%   Triclosan 0.5% &</span><span class="cls_070"> </span><span class="cls_069">Aloevera</span><span class="cls_070"> 3%</span></div>
+<div style="position:absolute;left:152.28px;top:321.19px" class="cls_071"><span class="cls_071">Chlorhexidine</span><span class="cls_072"> 1%</span></div>
+<div style="position:absolute;left:152.28px;top:365.92px" class="cls_072"><span class="cls_072">is an trusted antibacterial agents.</span></div>
+<div style="position:absolute;left:152.28px;top:429.86px" class="cls_071"><span class="cls_071">Triclosan 0.5%</span></div>
+<div style="position:absolute;left:152.28px;top:474.59px" class="cls_072"><span class="cls_072">Triclosan has an antibacterial properties</span></div>
+<div style="position:absolute;left:152.28px;top:519.31px" class="cls_072"><span class="cls_072">Approved tropical triclosan by USFDA</span></div>
+<div style="position:absolute;left:152.28px;top:574.75px" class="cls_071"><span class="cls_071">Aloevera 2%</span></div>
+<div style="position:absolute;left:152.28px;top:619.48px" class="cls_072"><span class="cls_072">Aloevera  helps in various skin conditions, Including Acne, Eczema and Sunburn.</span></div>
+<div style="position:absolute;left:1145.06px;top:636.52px" class="cls_005"><span class="cls_005">ALB</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:22126px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background27.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:138.59px;top:167.62px" class="cls_073"><span class="cls_073">BV-10</span></div>
+<div style="position:absolute;left:73.05px;top:315.97px" class="cls_074"><span class="cls_074">Biotin + Vitamin Tablets</span></div>
+<div style="position:absolute;left:506.54px;top:432.05px" class="cls_006"><span class="cls_006">Bv10  Enhance your Hair, Skin and Nails growth and keep them healthy.</span></div>
+<div style="position:absolute;left:506.54px;top:465.57px" class="cls_006"><span class="cls_006">Helps body to convert into energy and is also known as Vitamin H.</span></div>
+<div style="position:absolute;left:506.54px;top:499.08px" class="cls_006"><span class="cls_006">BV 10 is also useful in Hairgrowth.</span></div>
+<div style="position:absolute;left:506.54px;top:532.60px" class="cls_006"><span class="cls_006">Thinning of the hair</span></div>
+<div style="position:absolute;left:506.53px;top:566.11px" class="cls_006"><span class="cls_006">Red Scaly Rash around the Mouth, Eyes and Nose.</span></div>
+<div style="position:absolute;left:506.53px;top:599.63px" class="cls_006"><span class="cls_006">Depression</span></div>
+<div style="position:absolute;left:506.53px;top:633.14px" class="cls_006"><span class="cls_006">Exhaustion</span></div>
+<div style="position:absolute;left:506.53px;top:666.66px" class="cls_006"><span class="cls_006">Hallucinations</span></div>
+<div style="position:absolute;left:1144.73px;top:687.36px" class="cls_005"><span class="cls_005">BV10</span></div>
+<div style="position:absolute;left:506.53px;top:700.18px" class="cls_006"><span class="cls_006">Tingling in the arms and legs.</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:22977px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background28.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:121.00px;top:146.17px" class="cls_075"><span class="cls_075">Rokitra</span></div>
+<div style="position:absolute;left:138.39px;top:282.62px" class="cls_076"><span class="cls_076">Itraconazole 100/200mg</span></div>
+<div style="position:absolute;left:445.99px;top:335.24px" class="cls_060"><span class="cls_060"> Rokitra 200 Capsule is an  antifungal medicine.</span></div>
+<div style="position:absolute;left:445.99px;top:375.90px" class="cls_060"><span class="cls_060"> Rokitra stops the growth of fungus and is used to treat</span></div>
+<div style="position:absolute;left:483.45px;top:416.57px" class="cls_060"><span class="cls_060">infections of the Mouth, Throat, Vagina and other parts</span></div>
+<div style="position:absolute;left:483.45px;top:457.23px" class="cls_060"><span class="cls_060">of the body.</span></div>
+<div style="position:absolute;left:445.99px;top:497.90px" class="cls_060"><span class="cls_060"> Including fingernails and toenails.</span></div>
+<div style="position:absolute;left:445.99px;top:538.56px" class="cls_060"><span class="cls_060"> It kills fungi by destroying the fungal cell membrane.</span></div>
+<div style="position:absolute;left:1144.73px;top:738.54px" class="cls_005"><span class="cls_005">RITR</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:23828px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background29.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:197.51px;top:110.63px" class="cls_077"><span class="cls_077">Oxcid</span></div>
+<div style="position:absolute;left:723.02px;top:271.70px" class="cls_078"><span class="cls_078">Tasty way to END Acidity</span></div>
+<div style="position:absolute;left:275.72px;top:292.63px" class="cls_079"><span class="cls_079">Antacid Syrups</span></div>
+<div style="position:absolute;left:650.07px;top:331.59px" class="cls_006"><span class="cls_006">   Useful in conditions of heartburn and indigestion</span></div>
+<div style="position:absolute;left:337.14px;top:352.02px" class="cls_022"><span class="cls_022">Key Ingredients:</span></div>
+<div style="position:absolute;left:650.07px;top:365.11px" class="cls_006"><span class="cls_006">   Provides effective relief in just 3 minutes</span></div>
+<div style="position:absolute;left:337.14px;top:378.83px" class="cls_022"><span class="cls_022">Magaldrate 400mg+</span></div>
+<div style="position:absolute;left:337.14px;top:405.64px" class="cls_022"><span class="cls_022">Simethicone 60mg Oral</span></div>
+<div style="position:absolute;left:337.14px;top:432.45px" class="cls_022"><span class="cls_022">Suspension</span></div>
+<div style="position:absolute;left:629.69px;top:453.18px" class="cls_080"><span class="cls_080">Magaldrate</span></div>
+<div style="position:absolute;left:905.54px;top:466.73px" class="cls_080"><span class="cls_080">Simethicone</span></div>
+<div style="position:absolute;left:571.10px;top:482.34px" class="cls_022"><span class="cls_022">Acts fast for immediate</span></div>
+<div style="position:absolute;left:879.54px;top:495.89px" class="cls_022"><span class="cls_022">Has adsorbent and</span></div>
+<div style="position:absolute;left:607.77px;top:509.15px" class="cls_022"><span class="cls_022">relief stay longer</span></div>
+<div style="position:absolute;left:874.88px;top:522.70px" class="cls_022"><span class="cls_022">antiflatulent activity</span></div>
+<div style="position:absolute;left:593.80px;top:535.96px" class="cls_022"><span class="cls_022">for prolonged relief</span></div>
+<div style="position:absolute;left:670.24px;top:588.50px" class="cls_022"><span class="cls_022">Increase the efficacy of antacid</span></div>
+<div style="position:absolute;left:630.28px;top:615.31px" class="cls_022"><span class="cls_022">in the treatment of reflux oesophagitis</span></div>
+<div style="position:absolute;left:692.29px;top:642.12px" class="cls_022"><span class="cls_022">Intended to relief flatulence</span></div>
+<div style="position:absolute;left:843.51px;top:687.14px" class="cls_090"><span class="cls_090">Dosage</span></div>
+<div style="position:absolute;left:408.05px;top:691.67px" class="cls_081"><span class="cls_081">Gastritis | Heartburn | Hyper Acidity |</span></div>
+<div style="position:absolute;left:848.25px;top:710.23px" class="cls_082"><span class="cls_082">5 to 10 ml thrice a day for Adult.</span></div>
+<div style="position:absolute;left:439.60px;top:719.49px" class="cls_081"><span class="cls_081">Adjuvant to NSAID & Antibiotics</span></div>
+<div style="position:absolute;left:848.25px;top:737.00px" class="cls_082"><span class="cls_082">2.5 to 5 ml thrice a day for Children.</span></div>
+<div style="position:absolute;left:1144.58px;top:789.98px" class="cls_007"><span class="cls_007">OXD</span></div>
+<div style="position:absolute;left:433.97px;top:779.61px" class="cls_083"><span class="cls_083">Urinary Alkalizer with Highest Cooling Power</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-595px;top:24679px;width:1190px;height:841px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8170047c-6175-11ec-a980-0cc47a792c0a_id_8170047c-6175-11ec-a980-0cc47a792c0a_files/background30.jpg" width=1190 height=841></div>
+<div style="position:absolute;left:354.74px;top:3.77px" class="cls_085"><span class="cls_085">ALL</span><span class="cls_084">W</span><span class="cls_085">ELL</span></div>
+<div style="position:absolute;left:298.36px;top:123.35px" class="cls_086"><span class="cls_086">Paracetamol 500mg Phenylephrine Hcl 5mg,</span></div>
+<div style="position:absolute;left:242.14px;top:166.40px" class="cls_086"><span class="cls_086">Caffeine 30mg & Diphenhydramine Hcl 25mg Tablets</span></div>
+<div style="position:absolute;left:497.75px;top:330.24px" class="cls_087"><span class="cls_087">COUGH AND COLD</span></div>
+<div style="position:absolute;left:497.75px;top:376.07px" class="cls_087"><span class="cls_087">BLOCKED NOSE</span></div>
+<div style="position:absolute;left:497.75px;top:421.89px" class="cls_087"><span class="cls_087">HEADACHE</span></div>
+<div style="position:absolute;left:497.75px;top:467.72px" class="cls_087"><span class="cls_087">BODY PAIN</span></div>
+<div style="position:absolute;left:497.75px;top:513.55px" class="cls_087"><span class="cls_087">SORE THROAT</span></div>
+<div style="position:absolute;left:497.75px;top:559.37px" class="cls_087"><span class="cls_087">FAST RELIEF</span></div>
+<div style="position:absolute;left:497.75px;top:605.20px" class="cls_087"><span class="cls_087">EXTRA STRENGTH FOR TOUGH HEADACHE</span></div>
+</div>
+
+</body>
+</html>
