@@ -1,3 +1,3 @@
 # MST
 own oraganisation
-mxcmasdmskmask
+Medical Science and Therapy Pharma 
