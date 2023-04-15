@@ -1,0 +1,90 @@
+.col-container {
+  display: table;
+  width: 100%;
+ 
+  margin-top: 10px;
+ 
+}
+.col {
+  display: table-cell;
+  padding: 5%;
+  padding-top: 2%;
+  padding-left: 5%;
+
+}
+
+.col img {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+
+
+body {
+  background: #f4f4f4;
+  /*background-image: url("images/back.jpg");*/
+  background-color: rgb(10, 171, 235);
+}
+
+.banner {
+  background: #a770ef;
+  background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+}
+
+.img-thumbnail  {
+  width: 400px;;
+  height: 300px;
+ 
+}
+
+.col-lg-3 {
+  
+  padding: 10px;
+}
+
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 40%;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
